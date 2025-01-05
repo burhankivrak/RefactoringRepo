@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\gpt2\\mongodbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\gpt2\\mongodbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\gpt2\\worldrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\gpt2\\worldrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\gpt2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\gpt2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\gpt2\\worldconquer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\gpt2\\worldconquer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\gpt1\\worldgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\gpt1\\worldgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\gpt1\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\gpt1\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\gpt1\\worlddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\gpt1\\worlddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorldRecord.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT2\\WorldRecord.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\GPT2\\WorldRecord.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT2\\WorldRecord.cs",
+              "RelativeToolTip": "WorldConquerApp\\GPT2\\WorldRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T22:22:13.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MongoDBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT2\\MongoDBConnection.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\GPT2\\MongoDBConnection.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT2\\MongoDBConnection.cs",
+              "RelativeToolTip": "WorldConquerApp\\GPT2\\MongoDBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T22:20:23.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT2\\Program.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\GPT2\\Program.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT2\\Program.cs",
+              "RelativeToolTip": "WorldConquerApp\\GPT2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T22:02:43.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorldConquer.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT2\\WorldConquer.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\GPT2\\WorldConquer.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT2\\WorldConquer.cs",
+              "RelativeToolTip": "WorldConquerApp\\GPT2\\WorldConquer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T22:04:08.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorldGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT1\\WorldGenerator.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\GPT1\\WorldGenerator.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT1\\WorldGenerator.cs",
+              "RelativeToolTip": "WorldConquerApp\\GPT1\\WorldGenerator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T21:35:09.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "World.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT1\\World.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\GPT1\\World.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT1\\World.cs",
+              "RelativeToolTip": "WorldConquerApp\\GPT1\\World.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T21:30:42.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorldDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT1\\WorldDatabase.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\GPT1\\WorldDatabase.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\GPT1\\WorldDatabase.cs",
+              "RelativeToolTip": "WorldConquerApp\\GPT1\\WorldDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T21:34:41.4Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
