@@ -25,3 +25,4 @@ C:\Users\burha\Desktop\HoGent 2024-2025\Semester 1\PG 2\Opdracht Refactoring\Ref
 C:\Users\burha\Desktop\HoGent 2024-2025\Semester 1\PG 2\Opdracht Refactoring\RefactoringRepo\WorldConquerApp\WorldConquerApp\obj\Debug\net8.0\WorldConquerApp.pdb
 C:\Users\burha\Desktop\HoGent 2024-2025\Semester 1\PG 2\Opdracht Refactoring\RefactoringRepo\WorldConquerApp\WorldConquerApp\obj\Debug\net8.0\WorldConquerApp.genruntimeconfig.cache
 C:\Users\burha\Desktop\HoGent 2024-2025\Semester 1\PG 2\Opdracht Refactoring\RefactoringRepo\WorldConquerApp\WorldConquerApp\obj\Debug\net8.0\ref\WorldConquerApp.dll
+C:\Users\burha\Desktop\HoGent 2024-2025\Semester 1\PG 2\Opdracht Refactoring\RefactoringRepo\WorldConquerApp\WorldConquerApp\obj\Debug\net8.0\WorldConquerApp.sourcelink.json

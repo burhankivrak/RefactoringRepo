@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleAppSquareMaster
+namespace WorldConquerApp.Datalaag
 {
     public class WorldRepository
     {
@@ -26,7 +26,7 @@ namespace ConsoleAppSquareMaster
 
         public List<WorldModel> GetAllWorlds()
         {
-            return worlds.Find(world => true).ToList();  
+            return worlds.Find(world => true).ToList();
         }
     }
 }

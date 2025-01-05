@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\datalaag\\empiremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\datalaag\\empiremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\datalaag\\worldmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\datalaag\\worldmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|c:\\users\\burha\\desktop\\hogent 2024-2025\\semester 1\\pg 2\\opdracht refactoring\\refactoringrepo\\worldconquerapp\\worldconquerapp\\worldconquer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57500B-FA0A-4E78-BA57-A93AEA2B4DF6}|WorldConquerApp\\WorldConquerApp.csproj|solutionrelative:worldconquerapp\\worldconquer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorldModel.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\Datalaag\\WorldModel.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\Datalaag\\WorldModel.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\Datalaag\\WorldModel.cs",
+              "RelativeToolTip": "WorldConquerApp\\Datalaag\\WorldModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T10:57:07.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmpireModel.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\Datalaag\\EmpireModel.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\Datalaag\\EmpireModel.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\Datalaag\\EmpireModel.cs",
+              "RelativeToolTip": "WorldConquerApp\\Datalaag\\EmpireModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T10:57:00.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\Program.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\Program.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\Program.cs",
+              "RelativeToolTip": "WorldConquerApp\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAiwFAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T10:56:48.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorldConquer.cs",
+              "DocumentMoniker": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\WorldConquer.cs",
+              "RelativeDocumentMoniker": "WorldConquerApp\\WorldConquer.cs",
+              "ToolTip": "C:\\Users\\burha\\Desktop\\HoGent 2024-2025\\Semester 1\\PG 2\\Opdracht Refactoring\\RefactoringRepo\\WorldConquerApp\\WorldConquerApp\\WorldConquer.cs",
+              "RelativeToolTip": "WorldConquerApp\\WorldConquer.cs",
+              "ViewState": "AgIAACEBAAAAAAAAAAAiwEYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T10:56:42.015Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

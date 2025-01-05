@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorldConquerApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46fbbcd9954333c79ae468e203b7c5584a9410dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorldConquerApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorldConquerApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

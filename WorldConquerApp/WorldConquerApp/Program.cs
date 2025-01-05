@@ -1,7 +1,9 @@
 ﻿using ConsoleAppSquareMaster;
 using MongoDB.Bson;
+using WorldConquerApp.Datalaag;
+using WorldConquerApp.StrategyPattern;
 
-namespace ConsoleAppSquareMaster
+namespace WorldConquerApp
 {
     public class Program
     {
@@ -10,17 +12,10 @@ namespace ConsoleAppSquareMaster
             string connectionString = "mongodb://localhost:27017/";
             WorldRepository repo = new WorldRepository(connectionString);
             EmpireRepository empireRepo = new EmpireRepository(connectionString);
+            BitmapWriter bmw = new BitmapWriter();
 
-            int[] empireAlgorithms = { 1, 2, 3 };
-            World world = new World();
-            var worldBuild = world.BuildWorld2(100, 100, 0.6);
-            int nEmpires = 5;
-            int turns = 25000;
-            WorldConquer worldConquer = new WorldConquer(worldBuild, empireAlgorithms);
             WorldModel newWorld;
-            int[,] generatedWorld;
-            BitmapWriter bitmapWriter = new BitmapWriter();
-
+           
             for (int i = 1; i <= 10; i++)
             {
 
@@ -28,26 +23,32 @@ namespace ConsoleAppSquareMaster
                 int maxX = 100;
                 int maxY = 100;
                 double coverage = 0.6;
-                int selectedAlgorithm;
+                bool[,] worldBuild = new World().BuildWorld2(maxX, maxY, coverage);
 
+                int nEmpires = 5;
+                int turns = 25000;
+                WorldConquer worldConquer = new WorldConquer(worldBuild);
+                int[,] generatedWorld = new int[maxX, maxY];
+                int selectedAlgorithm = 1 + (i % 3);
 
-
-                generatedWorld = new int[maxX, maxY];
-                switch (i % 3)
+                IConquerStrategy conquerStrategy;
+                WorldConquerContext ctx;
+                switch (selectedAlgorithm)
                 {
-                    case 0:
-                        generatedWorld = worldConquer.Conquer1(nEmpires, turns);
-                        selectedAlgorithm = 1;
-                        break;
                     case 1:
-                        generatedWorld = worldConquer.Conquer3(nEmpires, turns);
-                        selectedAlgorithm = 2;
+                        conquerStrategy = new Conquer1();
+                        break;
+                    case 2:
+                        conquerStrategy = new Conquer2();
+                        break;
+                    case 3:
+                        conquerStrategy = new Conquer3();
                         break;
                     default:
-                        generatedWorld = worldConquer.Conquer3(nEmpires, turns);
-                        selectedAlgorithm = 3;
-                        break;
+                        throw new Exception("Ongeldig algorithme");
                 }
+                ctx = new WorldConquerContext(conquerStrategy);
+                generatedWorld = ctx.ExecuteConquer(worldBuild, nEmpires, turns);
 
                 newWorld = new WorldModel
                 {
@@ -62,7 +63,7 @@ namespace ConsoleAppSquareMaster
 
                 repo.SaveWorld(newWorld);
                 worldConquer.CalculateEmpiresSize(nEmpires, generatedWorld, selectedAlgorithm, newWorld.Id);
-                bitmapWriter.DrawWorld(generatedWorld, worldName);
+                bmw.DrawWorld(generatedWorld, worldName);
             }
 
 
@@ -70,8 +71,6 @@ namespace ConsoleAppSquareMaster
             var allWorlds = repo.GetAllWorlds();
             foreach (var w in allWorlds)
             {
-
-                //worldConquer.CalculateEmpiresSize(nEmpires, w.GeneratedWorld, w.AlgorithmType);
                 var allEmpires = empireRepo.GetAllEmpires();
                 Console.WriteLine($"Details voor {w.Name} - Conquer{w.AlgorithmType}:");
                 foreach (var empire in allEmpires)

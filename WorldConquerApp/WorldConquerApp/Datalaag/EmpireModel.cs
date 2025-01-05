@@ -1,6 +1,6 @@
 ﻿using MongoDB.Bson;
 
-namespace ConsoleAppSquareMaster
+namespace WorldConquerApp.Datalaag
 {
     public class EmpireModel
     {
